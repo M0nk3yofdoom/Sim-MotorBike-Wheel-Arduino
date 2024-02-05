@@ -4,6 +4,8 @@ Original thread found here: https://www.xsimulator.net/community/threads/motorcy
 I’ve tried to summarize all of the work I’ve done with a reasonably efficient description of each step and some instructions. Any feedback or suggestions would be really appreciated. I estimate the handlebars are about 80% where I want them to be.
 
 
+
+
 **I’ve still got to work on:**
 The clean look of the whole system – the wires, electronics box and general vibe of the aluminium
 The mounting of the linear potentiometer – I messed up the measurements (now adjusted for their correct width in the file)
@@ -12,9 +14,14 @@ The handlebar mounts even at their tightest still allow the handlebars to twist 
 
 
 
+
+
 **All Files and Progress images available here:**
 https://drive.google.com/file/d/1YkU08pbUXcodJXZ_9UWcvA9zXV3Dh5Pr/view?usp=drive_link
 I’ve not been able to add photos to my posts yet so all have been uploaded and labelled in the above link. I’ll likely upload the code and files to some other sites as well to make them more easily accessible.
+
+
+
 
 
 **Required Equipment Shopping List:**
@@ -52,12 +59,17 @@ Small load cell -5rmb
 
 1x Momo quick release v1 or alternative mount. -105rmb
 
+
 _Approximately 736rmb worth of things_
 _$105 usd in parts._
 
 
 Other optional: Multimeter for testing.
 High quality usb cable
+
+
+
+
 
 
 **Files for CNC and 3D Printing:**
@@ -67,10 +79,16 @@ https://drive.google.com/file/d/1YkU08pbUXcodJXZ_9UWcvA9zXV3Dh5Pr/view?usp=drive
 Box for Electronics as STL
 https://drive.google.com/file/d/1gWj0syKul5UYiLviwSdprBLSwJ0wLE96/view?usp=drive_link
 
+
+
+
 **E-Throttle:**
 Cut off plugs that come with standard E-Throttle but take note of which ones are for the switch (2 cables) and which are for the throttle potentiometer (3 or 4)
 Connect to a 5 pin cable similar to below after testing for each cable’s purpose.
 5 pin - Throttle - gnd vcc and 1, Switch - gnd and 1
+
+
+
 
 **Brake System:**
 Cheap cable disc brakes are suitable, you’ll have to file down the brake pads so that the small load cell can fit between them similar to the progress photos shown in the google drive link after using some hot glue to help keep everything mostly in place.
@@ -78,15 +96,24 @@ Make sure to protect the cables that are connected to the load cell.
 Connect the single load cell to the 4 pin plug. Only connect 3 cables as the 4th cable will be used on the Arduino board with the two additional 1k resistors.
 4 pin - Load Cell- E+ E- (A+) A-
 
+
+
+
 **Clutch:**
 Thread the cable with a washer through the L-bracket and connect it to the KTRC potentiometer and secure with the cable crimp through the pot hole.
 This can then be mounted on the right side of the mounting board on the back side
 Test or use the circuit diagram to explain which wires to wire together. Some pots have an additional GND shield that can be ignored.
 3 pin - Clutch - gnd vcc and 1
 
+
+
+
 **Button pads:**
 Combine the ground cables, one for each button.
 6 pin - gnd & 5 separate buttons
+
+
+
 
 **Electronics box:**
 Use Arduino IDE to connect your Pro Micro and install the sketch listed in the google drive - https://drive.google.com/file/d/1hwLeQtzYrn4penaZjkBjBFWK_BTkbd_3/view?usp=drive_link
@@ -95,6 +122,9 @@ Hot glue the vcc and gnd rail connections.
 Right side of the box should hold the 5-pin and 3-pin plugs
 Left side of the box should hold the 6-pin and 4-pin plugs
 Mount the box on the front or back of the mounting board
+
+
+
 
 
 **Software setup:**
@@ -107,6 +137,9 @@ In Steam - MUST disable mouse control in controllers everywhere otherwise it int
 The “Steam Companion App” also interferes. make sure games in x360ce are using Output 1.4 dll under the game ‘options’. No ffb yet but it doesn’t crash.
 
 You will need to calibrate the controls in the “windows usb controller manager”-> settings-> calibrate
+
+
+
 
 
 
