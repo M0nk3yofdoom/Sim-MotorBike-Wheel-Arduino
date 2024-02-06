@@ -1,5 +1,9 @@
 Original thread found here: https://www.xsimulator.net/community/threads/motorcycle-handlebar-to-wheel-diy.18413/#post-245512
 
+
+**Dependencies:**
+https://cults3d.com/en/3d-model/game/50-8mm-to-70mm-bolt-pattern-adapter-for-steering-wheel
+
 **Simagic Wheel Mount Handlebars**
 I’ve tried to summarize all of the work I’ve done with a reasonably efficient description of each step and some instructions. Any feedback or suggestions would be really appreciated. I estimate the handlebars are about 80% where I want them to be.
 
